@@ -47,11 +47,15 @@ func (l *Level) String() (str string) {
 	return
 }
 
-var logColor = map[Level]string{
-	Debug:  Green,
-	Waring: Yellow,
-	Info:   Green,
-	Error:  Red,
+var logColor = map[Level]string{}
+
+func init() {
+	logColor = map[Level]string{
+		Debug:  Green,
+		Waring: Yellow,
+		Info:   Green,
+		Error:  Red,
+	}
 }
 
 func buildPrefix(level Level) *bytes.Buffer {
