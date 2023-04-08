@@ -1,0 +1,6 @@
+github.com/fuyao-w/common-util v0.0.0-20230325061500-2195cc554530 h1:xW/fNP/gyfKUshlorjhEF7ccgHwQGwb1q36mG9iZqK4=
+github.com/fuyao-w/common-util v0.0.0-20230325061500-2195cc554530/go.mod h1:kV74J/K4zGi+Utc156GHNI2T6oJJKIi+aSVc0CFkFb8=
+github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5 h1:q2e307iGHPdTGp0hoxKjt1H5pDo6utceo3dQVK3I5XQ=
+github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5/go.mod h1:jvVRKCrJTQWu0XVbaOlby/2lO20uSCHEMzzplHXte1o=
+github.com/sasha-s/go-deadlock v0.3.1 h1:sqv7fDNShgjcaxkO0JNcOAlr8B9+cV5Ey/OB71efZx0=
+github.com/sasha-s/go-deadlock v0.3.1/go.mod h1:F73l+cr82YSh10GxyRI6qZiCgK64VaZjwesgfQ1/iLM=
