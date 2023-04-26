@@ -3,13 +3,11 @@ package log
 import (
 	"bytes"
 	"fmt"
+	. "github.com/fuyao-w/common-util"
 	"log"
 	"os"
 	"path"
 	"runtime"
-	"strings"
-
-	. "github.com/fuyao-w/common-util"
 )
 
 var (
@@ -82,9 +80,10 @@ func printCodeLocation() string {
 	if !ok {
 		return "unknown location"
 	}
-	if strings.HasPrefix(file, gopath) {
-		file = file[len(gopath):]
-	}
+	//if strings.HasPrefix(file, gopath) {
+	//	file = file[len(gopath):]
+	//}
+	file = path.Base(file)
 	return fmt.Sprintf("%s.%d", file, line)
 }
 func (s *simpleLog) Infof(format string, v ...any) {
